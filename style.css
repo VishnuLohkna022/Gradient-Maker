@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root{
+    --color1: #FD1D1D;
+    --color2: #FCB045;
+}
+
+body{
+    background: linear-gradient(90deg, var(--color1) , var(--color2));
+}
+
+
+.title{
+    padding-left: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title img{
+    height: 40px;
+}
+
+.container{
+    height: calc(100vh - 60px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    gap: 80px;
+}
+
+.btn button{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#btn1{
+    background-color: var(--color1);
+}
+#btn2{
+    background-color: var(--color2);
+}
+
+#angle{
+    border-radius: 1rem;
+    padding-left: 1.3rem;
+    border: 1px solid black;
+    outline: none;
+}
+
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 120px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.clipboard button{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 0;
+    border: none;
+}

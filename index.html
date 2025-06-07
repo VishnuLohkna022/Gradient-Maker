@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="title">
+            <img src="favicon.webp" alt="Gradient Maker">
+            <h1>Gradient Maker</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="btn">
+            <button id="btn1">#FCB045</button>
+            <input id="angle" type="number" placeholder="Enter Angle (0-360)" min="0" max="360" value="90"
+            title="Specify the gradient angle in degrees (0-360)">
+            <button id="btn2">#FD1D1D</button>
+        </div>
+        <div class="clipboard">
+            <p>background: linear-gradient(90deg, #FD1D1D, #FCB045);</p>
+            <button><i class="fa-solid fa-clipboard"></i> Copy to clipboard</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
