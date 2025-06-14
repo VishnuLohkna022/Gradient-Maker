@@ -7,6 +7,7 @@ Gradient Maker is a simple web application that allows you to generate linear gr
 * **Random Color Generation**: Generate random hexadecimal colors for your gradient endpoints.
 * **Angle Control**: Adjust the angle of the linear gradient from 0 to 360 degrees.
 * **Live Preview**: See the gradient update in real-time as you change colors or the angle.
+* **Responsive**: The layout and elements adapt to different screen sizes, providing an optimal viewing and interaction experience on desktops, tablets, and mobile devices.
 * **Copy to Clipboard**: One-click functionality to copy the generated CSS `background` property to your clipboard.
 * **Dynamic Font Color**: The text color of the color buttons adjusts automatically to ensure readability against the generated background color.
 
@@ -32,5 +33,7 @@ Gradient Maker is a simple web application that allows you to generate linear gr
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/6f0c2214-337b-4335-b34f-ef8da220aeaf)
-![image](https://github.com/user-attachments/assets/def33aa5-fa4d-4c3b-8c49-559f9462cbba)
+![image](https://github.com/user-attachments/assets/c36160c3-5c75-4ad5-a955-c7b6bf2cac63)
+
+![image](https://github.com/user-attachments/assets/527bb984-c537-4508-8e7f-7370d05741ba)
+
